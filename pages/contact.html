@@ -13,7 +13,7 @@
 
     <!-- CSS -->
 
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="../styles/main.css">
 
 </head>
 
@@ -24,7 +24,7 @@
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                     <div class="container-fluid ">
                         <a class="navbar-brand" href="#">
-                            <img src="./media/Eduardo_Hernandez_icono.png" alt="" class="nav-icon">
+                            <img src="../media/Eduardo_Hernandez_icono.png" alt="" class="nav-icon">
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
@@ -33,10 +33,10 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                                 <a class="nav-link" href="#">Sobre mí</a>
-                                <a class="nav-link" href="./pages/proyects.html">Proyectos</a>
-                                <a class="nav-link" href="./pages/contact.html">Contacto</a>
+                                <a class="nav-link" href="./proyects.html">Proyectos</a>
+                                <a class="nav-link" href="../pages/contact.html">Contacto</a>
                                 <a class="nav-link" href="#">Cursos</a>
                             </div>
                         </div>
@@ -47,21 +47,27 @@
         </div>
     </header>
     <main>
-        <div class="container-fluid col-12 container-main d-flex justify-content-center">
-            <div class="row col-md-11 d-flex justify-content-center">
-                <div class="row col-md-6 text-white d-flex align-items-center">
-                    <div class="row">
-                        <h1>José Eduardo Hernández García</h1>
-                    </div>
-                    <div class="row">
-                        <h2>Desarrollador Java Full Stack</h2>
-                    </div>
-                    <div class="row">
-                        <p>Desarrollador Full Stack Junior y estudiante de Ingeniería de Software certificado en Oracle Cloud (OCI) y Scrum. Cuento con experiencia práctica en el ciclo completo de desarrollo, destacando la creación de modelos predictivos y APIs REST. Combino una sólida trayectoria previa en ingeniería y gestión de procesos con habilidades técnicas en Java, Python y React para construir soluciones escalables y eficientes en la nube. Busco integrarme a equipos ágiles para aportar en el desarrollo de arquitectura backend y frontend</p>
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="row">
+                    <h2>Contáctame</h2>
                 </div>
-                <div class="row col-md-5 img-container d-flex justify-content-center">
-                    <img src="./media/Eduardo_Hernandez_icono.png" class="img-profile" alt="">
+                <div class="row">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name_user" class="form-label">Nombre completo</label>
+                            <input type="text" class="form-control" id="name_user">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email_user" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email_user">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Envíame tu mensaje</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
                 </div>
             </div>
         </div>

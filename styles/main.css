@@ -3,9 +3,33 @@
     margin: 0;
 }
 
+html{
+    --colorPrimario:#d9c58c;
+    --colorSecundario: #d67a5c;
+    --colorTerciario: #33cca5;
+    --colorCuaternario: #1f8aad;
+    --colorQuintinario:#d92653; 
+
+}
+
 .navbar{
     height: 10vh;
 }
 .nav-icon{
     height: 10vh;
+}
+
+.container-main{
+    background-color: var(--colorCuaternario);
+    height: 80vh;
+}
+
+.img-container{
+    height: 100%;
+}
+
+.img-profile{
+    height: 80%;
+    width: auto;
+    object-fit: cover;
 }

@@ -19,19 +19,26 @@ html{
     height: 10vh;
 }
 
-.container-main{
+.container-main {
     background-color: var(--colorCuaternario);
-    height: 80vh;
+    height: 80vh; /* Altura total de la sección */
 }
 
-.img-container{
+.h-100 {
     height: 100%;
 }
 
-.img-profile{
-    height: 80%;
+.img-container {
+    height: 100%; /* Ahora sí se basa en el alto de la columna */
+    display: flex;
+    align-items: center;
+}
+
+.img-profile {
+    max-height: 80%; /* Tu ajuste original */
     width: auto;
     object-fit: cover;
+    max-width: 100%; /* Evita que se salga de la columna en pantallas chicas */
 }
 
 .container-tecnology{
@@ -44,7 +51,3 @@ html{
     margin-bottom: 3%;
 }
 
-
-.footer-container{
-    
-}

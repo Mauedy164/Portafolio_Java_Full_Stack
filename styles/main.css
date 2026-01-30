@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    height: 10vh;
+}
+.nav-icon{
+    height: 10vh;
+}

@@ -33,3 +33,13 @@ html{
     width: auto;
     object-fit: cover;
 }
+
+.container-tecnology{
+    height: 10%;
+}
+
+.tecnology{
+    height: 20px;
+    width: auto;
+    margin-bottom: 3%;
+}
